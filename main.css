@@ -4,19 +4,62 @@
     padding: 0;
 }
 
-h1 {
-    color: rgb(32, 129, 8);
+body > header {
+    background-color:#484d50;
+    padding: 16px 0;
+    color: aliceblue;
 }
 
-h2{
-    color: green;
+header li a {
+    color: aliceblue;
 }
 
-#Economia h2{
-        color: gold;
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.creation-date {
-        color: #ccc;  
+header li {
+    display: inline ;
 }
 
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 250px;
+}
+
+.articles article {
+    width: 40%;
+}
+
+section {
+    padding: 16px;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: rgb(31, 49, 209);
+    color: aliceblue;
+    padding: 8px;
+    display: inline-block;
+}

@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     color: rgb(32, 129, 8);
 }
@@ -11,5 +17,6 @@ h2{
 }
 
 .creation-date {
-        color: #ccc;
+        color: #ccc;  
 }
+

@@ -108,4 +108,19 @@ h2 {
     color: #000;
 }
 
+#tecnology {
+    background-color: rgba(0, 0, 255, 0.6);
+}
 
+#tecnology .articles article a {
+    color: #000;
+}
+
+#games {
+    background-color: rgba(128, 0, 128, 0.7);
+}
+
+#games .articles article a {
+    background-color: rosybrown;
+    color: #000;
+}

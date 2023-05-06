@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    margin: 20% auto;
+    max-width: 640px;
+    width: 100%;
+} 
+
+input, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}

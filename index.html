@@ -11,10 +11,12 @@
     <div class="container">
         <h1>Formulário</h1>
             <h2>Exercicio</h2>
-            <form>
-                <input placeholder="Campo A" type="number">
-                <input placeholder="Campo B" type="number">
+            <form id="form-formulario">
+                <input id="campoA" placeholder="Campo A" type="number">
+                <p class="error-messege">O Campo <b>A</b> deve ser <b>MENOR</b> ao <b>CAMPO B</b></p>
+                <input id="campoB" placeholder="Campo B" type="number">
                 <button type="submit">Enviar</button>
+                <p class="success-message">Formulario enviado!</p>
             </form>
     </div>
     <script src="./main.js"></script>

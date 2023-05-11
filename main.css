@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -27,7 +28,8 @@ button {
     background-color: green;
     border-color: green;
     border-style: none;
-    font-size: 15px;
+    color: #fff;
+    font-size: 18px;
 }
 
 .error-messege {
